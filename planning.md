@@ -3,7 +3,7 @@ The first feature I would like to have is a generate cocktail randomizer button.
 
 The second feature would be a search by name drop down menu
 
-“As a user, I want to click a button that can give me a random idea for a cocktail.”
+“As a user, I want to click a button that can give me a random idea for a cocktail. I would also like to be able to search by name since most people may be feeling like making a particular type of drink"
 
 This will be my minimum viable product.
 

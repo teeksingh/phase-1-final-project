@@ -15,6 +15,7 @@ Simply click the Randomize button to generate a recipe for a random cocktail and
 ## Contributor's Guide
 
 Created using data and API provided by thecockctaildb.com
+All images are free for use under the Creative Commons license
 
 ## License
 
