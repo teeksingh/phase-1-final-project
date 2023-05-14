@@ -2,11 +2,11 @@
 
 ## Description
 
-This is a simple vanilla Javascript app to randomize selecting cocktails for a libation time! It could be for breakfast, lunch, or dinner! We won't judge!
+This is a simple vanilla Javascript app to randomize selecting cocktails for libation time! It could be for breakfast, lunch, or dinner! We won't judge!
 
 ## Installation instructions
 
-
+This webapp can be run locally, all you need to do it clone the repo.
 
 ## How to use this app
 
