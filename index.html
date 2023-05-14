@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="src/script.js"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Cocktail Randomizer Webapp</title>
+    <title>Cocktail Suggestion Webapp</title>
 </head>
 <body>
-    <h1>Cocktail Randomizer</h1>
+    <h1>Cocktail Suggestion Webapp</h1>
     <div class='banner'>
         <a href='#'>
         <img class='resize_fit_center'
@@ -17,7 +17,7 @@
         </a>
     </div>
     <p>Click below for a random cocktail recipe!</p>
-    <div class='button'><button onclick="getRandomDrink()">Click here for a random cocktail</button></div>
+    <div class='button'><button onclick="getRandomDrink()" >Click here for a random cocktail</button></div>
     <p>Have a specific drink in mind?</p>
     <input list="Cocktails" placeholder="Start typing...">
 
@@ -27,7 +27,7 @@
    <div id="drinkGlassType"></div>
    <div id="drinkMeasure"></div>
    <div id="drinkIngredients"></div>
-   <div id="drinkInstructions"></div>
+   <div id="drinkInstructions"><p></p></div>
     
 </body>
 </html>
