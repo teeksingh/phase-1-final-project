@@ -16,18 +16,18 @@
           src='/image/banner.jpeg' />
         </a>
     </div>
-    <p>Click below for a random cocktail recipe!</p>
-    <div class='button'><button onclick="getRandomDrink()" >Click here for a random cocktail</button></div>
-    <p>Have a specific drink in mind?</p>
-    <input list="Cocktails" placeholder="Start typing...">
-
+    <p></p>
+    <div class='button'><button onclick="getRandomDrink()">Click here for a random cocktail</button></div>
+    
     <h3>Drink Recipe</h3>
    <div id="drinkName"></div>
    <div id="drinkImage"></div>
    <div id="drinkGlassType"></div>
    <div id="drinkMeasure"></div>
    <div id="drinkIngredients"></div>
-   <div id="drinkInstructions"><p></p></div>
+   <div id="drinkInstructions"></div>
     
+   <div id="hover"><p>Hover over this image to try again!</p><img src = "/image/Hover.gif" onmouseover="removeResults()"></div>
+
 </body>
 </html>

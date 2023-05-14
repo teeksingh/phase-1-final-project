@@ -15,7 +15,9 @@ max-height:100%;
 vertical-align: middle;
 }
 
-#drinkImage{
-    max-width:50%;
-    max-height:50%;
+.button{
+    text-align: center;
 }
+  #hover {
+    text-align: center;
+  }
