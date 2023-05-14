@@ -20,4 +20,3 @@
     
     // const randomButton = document.querySelector('.button')
     // randomButton.addEventListener('click', function(){alert('I was clicked')})
-    git rm --cached phase-1-final-project
