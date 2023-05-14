@@ -6,7 +6,7 @@ This is a simple vanilla Javascript app to randomize selecting cocktails for lib
 
 ## Installation instructions
 
-This webapp can be run locally, all you need to do it clone the repo.
+This webapp can be run locally, all you need to do is clone the repo.
 
 ## How to use this app
 
