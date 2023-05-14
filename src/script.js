@@ -33,7 +33,7 @@ function getRandomDrink() {
       const name1 = document.getElementById('drinkName')
       name1.remove()
 
-      const image1 = document.createElement("img")
+      const image1 = document.createElement('img')
       image1.remove()
 
       const glassType1 = document.getElementById('drinkGlassType')
@@ -42,7 +42,7 @@ function getRandomDrink() {
       const measure1 = document.getElementById('drinkMeasure')
       measure1.remove()
 
-      const Ingredients1 = document.getElementById('drinkMeasure')
+      const Ingredients1 = document.getElementById('drinkIngredients')
       Ingredients1.remove()
 
       const Instructions2 = document.getElementById('drinkInstructions')
