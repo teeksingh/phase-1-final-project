@@ -1,5 +1,5 @@
 ## Planning
-The first feature I would like to have is a generate cocktail randomizer button.
+The first feature I would like to have is a generate cocktail randomizer button using form submit
 
 The second feature would be a search by name drop down menu
 
