@@ -29,12 +29,12 @@ function getRandomDrink() {
       console.log(myDrink)
     }
 
-    function removeResults(myDrink){
-      const name1 = document.getElementById('drinkName')
-      name1.remove()
+    function removeResults(){
+      const removeName = document.getElementById('drinkName')
+      removeName.remove()
 
-      const image1 = document.createElement('img')
-      image1.remove()
+      const removeImage = document.getElementById('drinkImage')
+      removeImage.remove()
 
       const glassType1 = document.getElementById('drinkGlassType')
       glassType1.remove()
