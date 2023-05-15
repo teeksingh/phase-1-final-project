@@ -8,6 +8,7 @@ function getRandomDrink() {
     .then((response) => response.json())
     .then((data) => {
       const myDrink = data.drinks[0]
+      console.log(myDrink)
      printOutput(myDrink)
     });
 }
@@ -23,7 +24,7 @@ function getRandomDrink() {
 
       const measure = document.getElementById('drinkMeasure').append(myDrink.strMeasure1)
 
-      const Ingredients = document.getElementById('drinkMeasure').append(myDrink.strIngredient1)
+      const Ingredients = document.getElementById('drinkIngredients').append(myDrink.strIngredient1)
 
       const Instructions = document.getElementById('drinkInstructions').append(myDrink.strInstructions)
       console.log(myDrink)
@@ -47,5 +48,6 @@ function getRandomDrink() {
 
       const Instructions2 = document.getElementById('drinkInstructions')
       Instructions2.remove()
+      
     }
   
