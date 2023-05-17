@@ -43,3 +43,10 @@ Try to avoid using an API that requires a key. APIs that are free and require no
 Stretch Goals
 [] Use json-server Links to an external site. in your project to persist your app's interactivity.
 [] Use 3 or more event listeners.
+
+Change append and remove to textcontent
+Add a array iterator using differnt API endpoint for search by Gin
+ Use foreach to iterate the object
+
+ use .map or .filter to iterate array in search by ingreident
+ 
