@@ -48,5 +48,4 @@ Change append and remove to textcontent
 Add a array iterator using differnt API endpoint for search by Gin
  Use foreach to iterate the object
 
- use .map or .filter to iterate array in search by ingreident
- 
+ use .map or .filter to iterate array in search by ingredient
