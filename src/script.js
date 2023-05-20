@@ -28,7 +28,7 @@ const renderDrink = (drink) => {
 
   drinkCard.append(drinkName, drinkImage)
 
-  drinkCollection.append(drinkCard)
+  drinkCardCollection.append(drinkCard)
 
 };
 const grabButtons = () => {
@@ -69,6 +69,7 @@ function printOutput(myDrink){
       const glassType = document.getElementById('drinkGlassType').textContent = myDrink.strGlass
       const measure = document.getElementById('drinkMeasure').textContent = myDrink.strMeasure1 + ' ' + myDrink.strIngredient1
       const Ingredients = document.getElementById('drinkIngredients').textContent = myDrink.strMeasure2 + ' ' + myDrink.strIngredient2
+      const drinkIng2 = document.getElementById('drinkIng2').textContent = myDrink.strMeasure3 + ' ' + myDrink.strIngredient3
       const Instructions = document.getElementById('drinkInstructions').textContent = myDrink.strInstructions
       // console.log(myDrink)
     }
@@ -88,6 +89,9 @@ function removeResults(){
 
       const Ingredients1 = document.getElementById('drinkIngredients')
       Ingredients1.textContent = ""
+
+      const drinkIng2 = document.getElementById('drinkIng2')
+      drinkIng2.textContent = ""
 
       const Instructions2 = document.getElementById('drinkInstructions')
       Instructions2.textContent = ""
