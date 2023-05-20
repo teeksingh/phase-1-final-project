@@ -1,5 +1,6 @@
 
 body {
+  background-color: antiquewhite;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -22,9 +23,17 @@ h3 {
 
 #pop-buttons {
   text-align: center;
-  background-color: rgb(122, 59, 17);
+  background-color: rgb(225, 122, 53);
     border: #060720 solid 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
   
+}
+button#clear {
+  text-align: center;
 }
 
 .drink-image{
