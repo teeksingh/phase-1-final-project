@@ -34,23 +34,17 @@ const renderDrink = (drink) => {
 const grabButtons = () => {
   document.querySelector('#pop-buttons').childNodes.forEach(childNode => { 
       childNode.addEventListener('click', function(){
-          removeDrinks()
+          removeResults()
           getDrinks(childNode)
       })
   })
 };
 
-const removeDrinks = () => {
-  drinkCollection.textContent = ""
-  while (drinkCollection.firstChild) {
-    drinkCollection.removeChild(drinkCollection.lastChild);
-  }
-}
-
-
-
 const button = document.getElementById("button")
 button.addEventListener("click", getRandomDrink)
+
+const clear = document.getElementById("clear")
+clear.addEventListener("click", removeResults)
 
 const hover = document.getElementById("hover")
 hover.addEventListener("mouseover", removeResults)
@@ -97,5 +91,8 @@ function removeResults(){
 
       const Instructions2 = document.getElementById('drinkInstructions')
       Instructions2.textContent = ""
+
+      const collection = document.getElementById('drinkCollection')
+      collection.textContent = ""
 
     }
