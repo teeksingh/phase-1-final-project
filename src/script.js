@@ -67,8 +67,8 @@ function printOutput(myDrink){
       document.querySelector('#drinkImage').appendChild(image)
       const name = document.getElementById('drinkName').textContent = myDrink.strDrink
       const glassType = document.getElementById('drinkGlassType').textContent = myDrink.strGlass
-      const measure = document.getElementById('drinkMeasure').textContent = myDrink.strMeasure1 + myDrink.strIngredient1
-      const Ingredients = document.getElementById('drinkIngredients').textContent = myDrink.strMeasure2 + myDrink.strIngredient2 + myDrink.strMeasure3 + myDrink.strIngredient3
+      const measure = document.getElementById('drinkMeasure').textContent = myDrink.strMeasure1 + ' ' + myDrink.strIngredient1
+      const Ingredients = document.getElementById('drinkIngredients').textContent = myDrink.strMeasure2 + ' ' + myDrink.strIngredient2
       const Instructions = document.getElementById('drinkInstructions').textContent = myDrink.strInstructions
       // console.log(myDrink)
     }
