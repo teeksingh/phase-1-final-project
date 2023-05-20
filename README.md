@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a simple vanilla Javascript app to randomize selecting cocktails for libation time! It could be for breakfast, lunch, or dinner! We won't judge!
+This is a simple vanilla Javascript app to randomize selecting cocktails for libation time and show pictures of drinks filtered by my top 3 ingredients! It could be for breakfast, lunch, or dinner! We won't judge!
 
 ## Installation instructions
 
@@ -10,7 +10,7 @@ This webapp can be run locally, all you need to do is clone the repo.
 
 ## How to use this app
 
-Simply click the Randomize button to generate a recipe for a random cocktail and click the save button to save it to your history of recipes that you've tried. 
+Simply click the Randomize button to generate a recipe for a random cocktail recipe and click one of my 3 favorite ingredients to show pictures of drinks with them in it. 
 
 ## Contributor's Guide
 
