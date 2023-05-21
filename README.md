@@ -10,6 +10,10 @@ This webapp can be run locally, all you need to do is clone the repo.
 
 ## How to use this app
 
+Start the app by opening index.html in your web browser
+
+In the app:
+
 Simply click the Randomize button to generate a recipe for a random cocktail recipe and click one of my 3 favorite ingredients to show pictures of drinks with them in it. 
 
 ## Contributor's Guide
